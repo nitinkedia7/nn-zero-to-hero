@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "micrograd"
+version = "0.1.0"
+description = ""
+authors = ["Nitin Kedia <nitinkedia7@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+numpy = "^1.24.1"
+matplotlib = "^3.6.3"
+graphviz = "^0.20.1"
+torch = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
